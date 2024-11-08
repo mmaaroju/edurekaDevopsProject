@@ -93,7 +93,7 @@ pipeline {
             steps {
                 git 'https://github.com/edureka-devops/projCert.git'
                 script {
-                    sh 'docker build -t my-php-app .'
+                    sh 'docker build -t php_app:latest .'
                 }
             }
         }
